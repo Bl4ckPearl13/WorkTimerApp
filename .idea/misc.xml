@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/drawable/border_spinner.xml" value="0.3769230769230769" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/drawable/gradient_spinner.xml" value="0.3769230769230769" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3769230769230769" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/layout/activity_customer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/layout/activity_customerx.xml" value="0.365036231884058" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/layout/activity_cutomer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/layout/activity_project.xml" value="0.36666666666666664" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/layout/activity_work_time.xml" value="0.36666666666666664" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/layout/activity_work_timex.xml" value="0.365036231884058" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/layout/activity_worktime.xml" value="0.365036231884058" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/layout/fragment_customer_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/layout/fragment_project_list.xml" value="0.35260416666666666" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/layout/fragment_work_time_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/layout/fragment_work_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/layout/row_layout_customer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/layout/row_layout_project.xml" value="0.36666666666666664" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/layout/row_layout_worktime.xml" value="0.36666666666666664" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/menu/context_menu_customer.xml" value="0.20520833333333333" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/menu/context_menu_details_edit_delete.xml" value="0.36666666666666664" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/menu/context_menu_project.xml" value="0.20520833333333333" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/menu/context_menu_work_time.xml" value="0.20520833333333333" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/menu/options_menu_edit_delete.xml" value="0.36666666666666664" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/menu/options_menu_new_delete_edit.xml" value="0.36666666666666664" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/menu/options_menu_new_edit_delete.xml" value="0.36666666666666664" />
+        <entry key="..\:/Alfatraining/Android/MyApps/VmWorkTimer/app/src/main/res/menu/options_menu_save.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

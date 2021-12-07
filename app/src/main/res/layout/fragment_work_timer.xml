@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.fragment.WorkTimerFragment">
+
+        <Spinner
+            android:id="@+id/spinnerProject"
+            style="@style/spinner_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/spinnerProject"
+            app:layout_constraintStart_toStartOf="@+id/spinnerProject"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerProject">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etWorkDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:gravity="start"
+                android:hint="@string/etWorkDescription_hint"
+                android:inputType="textMultiLine|textPersonName"
+                android:lines="5"
+                android:maxHeight="150dp"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="182dp"
+                tools:layout_editor_absoluteY="104dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnSaveWorkDescription"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/btnSaveWorkDescription_text"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textInputLayout"
+            app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintBottom_toTopOf="@+id/txtvTimer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSaveWorkDescription" />
+
+        <TextView
+            android:id="@+id/txtvTimer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/txtvTimer_text"
+            android:textSize="75sp"
+            app:layout_constraintEnd_toEndOf="@+id/btnSaveWorkDescription"
+            app:layout_constraintStart_toStartOf="@+id/btnSaveWorkDescription"
+            app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/txtvTimer"
+            app:layout_constraintStart_toStartOf="@+id/txtvTimer"
+            app:layout_constraintTop_toBottomOf="@+id/txtvTimer">
+
+            <Button
+                android:id="@+id/btnStartPauseTimer"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="@string/btnStartPauseTimer_text_start"
+                android:textSize="24sp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btnStop"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/btnStop_text"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

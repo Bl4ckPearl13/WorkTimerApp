@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtvWorkTimeProject"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Projekt"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtvWorkTimeDuration"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="000:00:00"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtvWorkTimeDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtvWorkTimeStartDate" />
+
+    <TextView
+        android:id="@+id/txtvWorkTimeStartDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Startdatum"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/txtvWorkTimeDuration"
+        app:layout_constraintStart_toStartOf="@+id/txtvWorkTimeProject"
+        app:layout_constraintTop_toBottomOf="@+id/txtvWorkTimeProject" />
+
+    <TextView
+        android:id="@+id/txtvWorkTimeDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:paddingBottom="5dp"
+        android:text="Beschreibung"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtvWorkTimeDuration"
+        app:layout_constraintStart_toStartOf="@+id/txtvWorkTimeStartDate"
+        app:layout_constraintTop_toBottomOf="@+id/txtvWorkTimeStartDate" />
+</androidx.constraintlayout.widget.ConstraintLayout>

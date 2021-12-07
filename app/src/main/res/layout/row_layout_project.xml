@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgvProjectState"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtvProjectCustomer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtvProjectName"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtvProjectName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Projekt"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgvProjectState"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtvProjectDuration"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="000:00:00"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/txtvProjectStartDate"
+        app:layout_constraintEnd_toEndOf="@+id/txtvProjectName"
+        app:layout_constraintTop_toTopOf="@+id/txtvProjectStartDate" />
+
+    <TextView
+        android:id="@+id/txtvProjectStartDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Startdatum"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/txtvProjectDuration"
+        app:layout_constraintStart_toStartOf="@+id/txtvProjectName"
+        app:layout_constraintTop_toBottomOf="@+id/txtvProjectName" />
+
+    <TextView
+        android:id="@+id/txtvProjectCustomer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:paddingBottom="5dp"
+        android:text="Kunde"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/txtvProjectStartDate"
+        app:layout_constraintTop_toBottomOf="@+id/txtvProjectStartDate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
